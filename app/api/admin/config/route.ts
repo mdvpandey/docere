@@ -5,8 +5,7 @@ import dbConnect from '@/lib/db';
 import AdminConfig from '@/models/AdminConfig';
 import { AdminConfigSchema } from '@/lib/validators';
 
-function requireAdmin(session: unknown) {
-    // @ts-expect-error session type
+function requireAdmin(session: any) {
     return session?.user?.role === 'admin';
 }
 

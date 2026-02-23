@@ -6,20 +6,17 @@ import User from '@/models/User';
 import WellnessLog from '@/models/WellnessLog';
 import { predictBurnout } from '@/lib/ai';
 
-function requireMentor(session: ReturnType<typeof getServerSession> extends Promise<infer T> ? T : unknown) {
-    // @ts-expect-error session type
+function requireMentor(session: any) {
     return session?.user?.role === 'mentor' || session?.user?.role === 'admin';
 }
 
 // GET /api/mentor/students — list assigned students with wellness summary
 export async function GET(req: NextRequest) {
-    const session = await getServerSession(authOptions);
-    // @ts-expect-error session type
+    const session = await getServerSession(authOptions) as any;
     if (!session || !requireMentor(session)) return NextResponse.json({ error: 'Unauthorized' }, { status: 403 });
 
     try {
         await dbConnect();
-        // @ts-expect-error session type
         const students = await User.find({ mentorId: session.user.id, role: 'student' }).lean();
 
         const enriched = await Promise.all(
