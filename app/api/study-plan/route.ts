@@ -15,11 +15,11 @@ export async function GET() {
         weekStart.setDate(weekStart.getDate() - weekStart.getDay() + 1);
         weekStart.setHours(0, 0, 0, 0);
 
-        const plan = await StudyPlan.findOne({ userId: session.user.id, weekStart }).lean();
+        const plan = await StudyPlan.findOne({ userId: session.user.id, weekStart }).lean() as any;
         if (!plan) return NextResponse.json({ plan: null }, { status: 200 });
 
         const total = plan.tasks.length;
-        const completed = plan.tasks.filter((t) => t.completed).length;
+        const completed = plan.tasks.filter((t: any) => t.completed).length;
         return NextResponse.json({ plan, progress: { total, completed, pct: total ? Math.round((completed / total) * 100) : 0 } });
     } catch (err) {
         console.error('[study-plan GET]', err);
@@ -38,7 +38,7 @@ export async function PATCH(req: NextRequest) {
         const plan = await StudyPlan.findOne({ userId: session.user.id }).sort({ weekStart: -1 });
         if (!plan) return NextResponse.json({ error: 'No plan found' }, { status: 404 });
 
-        const task = plan.tasks.find((t) => t.id === taskId);
+        const task = plan.tasks.find((t: any) => t.id === taskId);
         if (task) { task.completed = completed; await plan.save(); }
 
         return NextResponse.json({ success: true });

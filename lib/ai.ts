@@ -137,7 +137,7 @@ export function generateStudyPlan(
                 id: `task-${taskCounter + i + 1}`,
                 subject,
                 type,
-                duration: type === 'mock-test' ? 180 : type === 'theory' ? 60 : 90,
+                duration: type === 'theory' ? 60 : type === 'revision' ? 45 : 90,
                 day,
                 priority,
                 completed: false,
