@@ -28,6 +28,5 @@ const AdminConfigSchema = new Schema<IAdminConfig>(
 );
 
 AdminConfigSchema.index({ module: 1 });
-AdminConfigSchema.index({ key: 1 });
 
 export default models.AdminConfig || mongoose.model<IAdminConfig>('AdminConfig', AdminConfigSchema);
