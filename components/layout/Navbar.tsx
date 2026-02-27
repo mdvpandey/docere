@@ -47,7 +47,7 @@ export function Navbar() {
                         <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-indigo-500/30">
                             <Brain className="w-5 h-5 text-white" />
                         </div>
-                        <span className="text-xl font-bold gradient-text">DUCERE</span>
+                        <span className="text-xl font-bold gradient-text">DOCERE</span>
                     </Link>
 
                     {/* Desktop Nav */}

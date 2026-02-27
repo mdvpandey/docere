@@ -62,7 +62,7 @@ export function Sidebar() {
                     <div className={cn('w-9 h-9 rounded-xl bg-gradient-to-br flex items-center justify-center shadow-lg', roleColor)}>
                         <Brain className="w-5 h-5 text-white" />
                     </div>
-                    <span className="text-xl font-bold gradient-text">DUCERE</span>
+                    <span className="text-xl font-bold gradient-text">DOCERE</span>
                 </Link>
                 <p className="text-xs text-white/30 mt-1 ml-11">{roleLabel}</p>
             </div>

@@ -4,7 +4,7 @@ import { config } from 'dotenv';
 
 config({ path: '.env.local' });
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/ducere';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/docere';
 
 // ----- Schema stubs for seeding -----
 const UserSchema = new mongoose.Schema({
@@ -165,13 +165,13 @@ async function seed() {
         { key: 'max_students_per_mentor', value: '30', category: 'limits', description: 'Maximum students a mentor can manage', isPublic: false },
         { key: 'ai_plan_intensity_cap', value: '0.7', category: 'ai', description: 'Max intensity multiplier for AI study plans (0–1)', isPublic: false },
         { key: 'free_plan_monthly_plans', value: '1', category: 'limits', description: 'Study plans per month for free users', isPublic: true },
-        { key: 'platform_title', value: 'DUCERE', category: 'branding', description: 'Platform display name', isPublic: true },
+        { key: 'platform_title', value: 'DOCERE', category: 'branding', description: 'Platform display name', isPublic: true },
         { key: 'enable_blog_comments', value: 'false', category: 'feature', description: 'Allow students to comment on blog posts', isPublic: false },
         { key: 'feedback_analysis_model', value: 'rule-based', category: 'ai', description: 'AI model: rule-based / openai / gemini', isPublic: false },
     ]);
     console.log('⚙️ Created admin configs');
 
-    console.log('\n🎉 DUCERE database seeded successfully!\n');
+    console.log('\n🎉 DOCERE database seeded successfully!\n');
     console.log('Demo accounts (password: password123):');
     console.log('  Admin:   admin@ducere.app');
     console.log('  Mentor:  mentor@ducere.app');

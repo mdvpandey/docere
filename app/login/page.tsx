@@ -42,7 +42,7 @@ export default function LoginPage() {
                         <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
                             <Brain className="w-6 h-6 text-white" />
                         </div>
-                        <span className="text-2xl font-bold gradient-text">DUCERE</span>
+                        <span className="text-2xl font-bold gradient-text">DOCERE</span>
                     </Link>
                 </div>
 
@@ -89,9 +89,9 @@ export default function LoginPage() {
                         <p className="text-white/30 text-xs text-center mb-2">Demo Accounts</p>
                         <div className="grid grid-cols-3 gap-2">
                             {[
-                                { label: 'Student', email: 'student@ducere.app', role: 'student' },
-                                { label: 'Mentor', email: 'mentor@ducere.app', role: 'mentor' },
-                                { label: 'Admin', email: 'admin@ducere.app', role: 'admin' },
+                                { label: 'Student', email: 'student@DOCERE.app', role: 'student' },
+                                { label: 'Mentor', email: 'mentor@DOCERE.app', role: 'mentor' },
+                                { label: 'Admin', email: 'admin@DOCERE.app', role: 'admin' },
                             ].map((d) => (
                                 <button key={d.role} onClick={() => { setEmail(d.email); setPassword('password123'); }}
                                     className="text-xs px-2 py-1.5 rounded-lg bg-white/5 text-white/40 hover:text-white/70 hover:bg-white/10 transition-all">

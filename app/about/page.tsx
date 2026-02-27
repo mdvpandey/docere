@@ -2,7 +2,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = { title: 'About – DUCERE', description: 'The story, vision, and values behind the DUCERE student success platform.' };
+export const metadata: Metadata = { title: 'About – DOCERE', description: 'The story, vision, and values behind the DOCERE student success platform.' };
 
 const coreValues = [
     { emoji: '💡', title: 'Evidence-First', desc: 'Every feature is grounded in behavioral science, cognitive psychology, and educational research.' },
@@ -30,7 +30,7 @@ export default function AboutPage() {
                     {/* Hero */}
                     <div className="text-center mb-20 py-16">
                         <span className="badge badge-blue mb-4">Our Story</span>
-                        <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">We Built DUCERE Because<br /><span className="gradient-text">the System Failed Us Too</span></h1>
+                        <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">We Built DOCERE Because<br /><span className="gradient-text">the System Failed Us Too</span></h1>
                         <p className="text-xl text-white/60 max-w-3xl mx-auto leading-relaxed">
                             After watching countless brilliant students burn out, lose direction, and give up — our team of educators, psychologists, and engineers came together to build what should have existed all along.
                         </p>
@@ -66,7 +66,7 @@ export default function AboutPage() {
                             ))}
                         </div>
                         <p className="text-white/60 text-center mt-8 max-w-2xl mx-auto">
-                            These numbers drove us to action. DUCERE exists to flip these statistics — and every day we see it working.
+                            These numbers drove us to action. DOCERE exists to flip these statistics — and every day we see it working.
                         </p>
                     </div>
 
@@ -88,7 +88,7 @@ export default function AboutPage() {
                     <div className="glass-card border border-indigo-500/20 mb-20">
                         <h2 className="text-3xl font-bold text-white mb-4">Research Philosophy</h2>
                         <p className="text-white/60 leading-relaxed mb-6">
-                            DUCERE is not a content platform — it is a behavioral intelligence system. We measure what matters: stress patterns, sleep quality, study efficiency, and mood trajectories. Every algorithm we deploy is tested against real student outcomes before deployment.
+                            DOCERE is not a content platform — it is a behavioral intelligence system. We measure what matters: stress patterns, sleep quality, study efficiency, and mood trajectories. Every algorithm we deploy is tested against real student outcomes before deployment.
                         </p>
                         <p className="text-white/60 leading-relaxed">
                             Our adaptive learning engine is inspired by Bloom&apos;s Taxonomy, Vygotsky&apos;s Zone of Proximal Development, and Self-Determination Theory. The burnout prediction model is validated on real student data with 87% accuracy at 2-week advance warning.
@@ -97,7 +97,7 @@ export default function AboutPage() {
 
                     {/* Team */}
                     <div className="mb-20">
-                        <h2 className="text-3xl font-bold text-white text-center mb-12">The Team Behind DUCERE</h2>
+                        <h2 className="text-3xl font-bold text-white text-center mb-12">The Team Behind DOCERE</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                             {team.map((t) => (
                                 <div key={t.name} className="glass-card text-center hover:border-indigo-500/30 transition-all duration-300">
@@ -115,7 +115,7 @@ export default function AboutPage() {
                         <div className="text-4xl mb-4">🌱</div>
                         <h2 className="text-2xl font-bold text-white mb-3">Long-Term Impact Goal</h2>
                         <p className="text-white/60 max-w-2xl mx-auto leading-relaxed">
-                            By 2030, we aim to support 1 million students across India and Southeast Asia, reduce average graduate unemployment by 40%, and establish DUCERE as the global standard for holistic student development — where wellness and career success go hand in hand.
+                            By 2030, we aim to support 1 million students across India and Southeast Asia, reduce average graduate unemployment by 40%, and establish DOCERE as the global standard for holistic student development — where wellness and career success go hand in hand.
                         </p>
                     </div>
                 </div>

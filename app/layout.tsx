@@ -8,14 +8,14 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
     title: {
-        default: 'DUCERE – AI-Powered Student Success Platform',
-        template: '%s | DUCERE',
+        default: 'DOCERE – AI-Powered Student Success Platform',
+        template: '%s | DOCERE',
     },
     description: 'Empowering students with AI-driven mental wellness tracking, adaptive study plans, skill development, and career alignment for guaranteed success.',
     keywords: ['student wellness', 'study plan', 'career guidance', 'burnout prevention', 'AI education', 'EdTech'],
-    authors: [{ name: 'DUCERE Team' }],
+    authors: [{ name: 'DOCERE Team' }],
     openGraph: {
-        title: 'DUCERE – AI-Powered Student Success Platform',
+        title: 'DOCERE – AI-Powered Student Success Platform',
         description: 'Mental Wellness + Smart Learning + Career Clarity = Student Success',
         type: 'website',
         locale: 'en_IN',

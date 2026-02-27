@@ -1,5 +1,5 @@
 /**
- * DUCERE AI Engine
+ * DOCERE AI Engine
  * Rule-based + statistical AI for burnout prediction, curriculum generation,
  * skill gap analysis, and feedback sentiment analysis.
  * Designed to be model-agnostic — swap rule logic for LLM calls when ready.

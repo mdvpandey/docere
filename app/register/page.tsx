@@ -72,7 +72,7 @@ export default function RegisterPage() {
                         <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
                             <Brain className="w-6 h-6 text-white" />
                         </div>
-                        <span className="text-2xl font-bold gradient-text">DUCERE</span>
+                        <span className="text-2xl font-bold gradient-text">DOCERE</span>
                     </Link>
                 </div>
 

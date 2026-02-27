@@ -2,7 +2,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = { title: 'Features – DUCERE' };
+export const metadata: Metadata = { title: 'Features – DOCERE' };
 
 const featureGroups = [
     {

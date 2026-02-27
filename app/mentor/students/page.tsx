@@ -5,10 +5,10 @@ import { Users, AlertTriangle, TrendingUp, Heart, MessageSquare } from 'lucide-r
 import { toast } from 'sonner';
 
 const sampleStudents = [
-    { id: '1', name: 'Rahul Kumar', email: 'rahul@ducere.app', niche: 'Software Engineering', burnout: { score: 72, risk: 'high' as const }, wellnessSummary: { stress: 8.1, mood: 4.2, sleep: 5.5 }, performance: 62 },
-    { id: '2', name: 'Priya Sharma', email: 'priya@ducere.app', niche: 'Data Science', burnout: { score: 38, risk: 'moderate' as const }, wellnessSummary: { stress: 5.8, mood: 6.3, sleep: 7.1 }, performance: 75 },
-    { id: '3', name: 'Ananya Singh', email: 'ananya@ducere.app', niche: 'UI/UX Design', burnout: { score: 21, risk: 'low' as const }, wellnessSummary: { stress: 3.4, mood: 7.8, sleep: 8.2 }, performance: 88 },
-    { id: '4', name: 'Vikram Patel', email: 'vikram@ducere.app', niche: 'DevOps', burnout: { score: 55, risk: 'moderate' as const }, wellnessSummary: { stress: 6.2, mood: 5.9, sleep: 6.8 }, performance: 69 },
+    { id: '1', name: 'Rahul Kumar', email: 'rahul@DOCERE.app', niche: 'Software Engineering', burnout: { score: 72, risk: 'high' as const }, wellnessSummary: { stress: 8.1, mood: 4.2, sleep: 5.5 }, performance: 62 },
+    { id: '2', name: 'Priya Sharma', email: 'priya@DOCERE.app', niche: 'Data Science', burnout: { score: 38, risk: 'moderate' as const }, wellnessSummary: { stress: 5.8, mood: 6.3, sleep: 7.1 }, performance: 75 },
+    { id: '3', name: 'Ananya Singh', email: 'ananya@DOCERE.app', niche: 'UI/UX Design', burnout: { score: 21, risk: 'low' as const }, wellnessSummary: { stress: 3.4, mood: 7.8, sleep: 8.2 }, performance: 88 },
+    { id: '4', name: 'Vikram Patel', email: 'vikram@DOCERE.app', niche: 'DevOps', burnout: { score: 55, risk: 'moderate' as const }, wellnessSummary: { stress: 6.2, mood: 5.9, sleep: 6.8 }, performance: 69 },
 ];
 
 const riskColor = { low: 'badge-green', moderate: 'badge-yellow', high: 'badge-red' };

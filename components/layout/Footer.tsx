@@ -33,7 +33,7 @@ export function Footer() {
                             <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
                                 <Brain className="w-5 h-5 text-white" />
                             </div>
-                            <span className="text-xl font-bold gradient-text">DUCERE</span>
+                            <span className="text-xl font-bold gradient-text">DOCERE</span>
                         </Link>
                         <p className="text-white/50 text-sm leading-relaxed max-w-xs mb-6">
                             Empowering students with AI-driven mental wellness, adaptive learning, and career alignment for guaranteed success.
@@ -43,7 +43,7 @@ export function Footer() {
                                 { icon: Twitter, href: '#', label: 'Twitter' },
                                 { icon: Linkedin, href: '#', label: 'LinkedIn' },
                                 { icon: Github, href: '#', label: 'GitHub' },
-                                { icon: Mail, href: 'mailto:hello@ducere.app', label: 'Email' },
+                                { icon: Mail, href: 'mailto:hello@DOCERE.app', label: 'Email' },
                             ].map(({ icon: Icon, href, label }) => (
                                 <a key={label} href={href} aria-label={label}
                                     className="w-9 h-9 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors border border-white/10 hover:border-white/30">
@@ -71,7 +71,7 @@ export function Footer() {
                 </div>
 
                 <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-                    <p className="text-white/30 text-sm">© {new Date().getFullYear()} DUCERE. All rights reserved.</p>
+                    <p className="text-white/30 text-sm">© {new Date().getFullYear()} DOCERE. All rights reserved.</p>
                     <p className="text-white/20 text-xs">Built with ❤️ for student success · Powered by AI</p>
                 </div>
             </div>

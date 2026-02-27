@@ -4,7 +4,7 @@ import { Check } from 'lucide-react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = { title: 'Pricing – DUCERE', description: 'Flexible plans for students, mentors, and institutions.' };
+export const metadata: Metadata = { title: 'Pricing – DOCERE', description: 'Flexible plans for students, mentors, and institutions.' };
 
 const plans = [
     {
@@ -148,7 +148,7 @@ export default function PricingPage() {
                         <div className="space-y-4">
                             {[
                                 { q: 'Can I switch plans anytime?', a: 'Yes! Upgrade or downgrade at any time. If you upgrade mid-month, we prorate the difference.' },
-                                { q: 'Is the Free plan really free forever?', a: 'Absolutely. Our free plan has no time limit. We want every student to benefit from DUCERE.' },
+                                { q: 'Is the Free plan really free forever?', a: 'Absolutely. Our free plan has no time limit. We want every student to benefit from DOCERE.' },
                                 { q: 'What payment methods do you accept?', a: 'UPI, debit/credit cards, net banking, and EMI through Razorpay.' },
                                 { q: 'Is student wellness data secure?', a: 'Yes — all data is encrypted at rest and in transit. We are HIPAA-compliant and never sell your data.' },
                             ].map((faq) => (

@@ -43,7 +43,7 @@ const problems = [
 ];
 
 const steps = [
-    { step: '01', icon: HeartPulse, title: 'Track Mind + Performance', desc: 'Log your daily mood, stress, sleep & study hours. DUCERE builds your behavioral profile.', color: 'text-rose-400 border-rose-500/30 bg-rose-500/10' },
+    { step: '01', icon: HeartPulse, title: 'Track Mind + Performance', desc: 'Log your daily mood, stress, sleep & study hours. DOCERE builds your behavioral profile.', color: 'text-rose-400 border-rose-500/30 bg-rose-500/10' },
     { step: '02', icon: Brain, title: 'AI Personalizes Your Curriculum', desc: 'Our engine adapts your study plan weekly based on burnout risk and performance trends.', color: 'text-indigo-400 border-indigo-500/30 bg-indigo-500/10' },
     { step: '03', icon: Briefcase, title: 'Career & Job Alignment', desc: 'Get matched to roles, build skills, and land interviews in your niche — not just any job.', color: 'text-green-400 border-green-500/30 bg-green-500/10' },
 ];
@@ -56,9 +56,9 @@ const outcomes = [
 ];
 
 const testimonials = [
-    { name: 'Priya Sharma', role: 'Software Engineer at Flipkart', avatar: 'PS', text: 'DUCERE predicted my burnout 2 weeks before my GATE exam. The adaptive plan helped me reduce stress from 9 to 4 while actually improving my score by 23 points.', rating: 5 },
+    { name: 'Priya Sharma', role: 'Software Engineer at Flipkart', avatar: 'PS', text: 'DOCERE predicted my burnout 2 weeks before my GATE exam. The adaptive plan helped me reduce stress from 9 to 4 while actually improving my score by 23 points.', rating: 5 },
     { name: 'Rohit Kumar', role: 'Data Scientist at Zomato', avatar: 'RK', text: 'The skill gap analysis showed me exactly what I was missing for a DS role. The roadmap was so specific — I got my first offer within 4 months of following it.', rating: 5 },
-    { name: 'Ananya Patel', role: 'UX Designer at Razorpay', avatar: 'AP', text: 'I was completely lost about my career after college. DUCERE\'s career mapping literally changed my life. Now I\'m doing exactly what I love and getting paid well for it.', rating: 5 },
+    { name: 'Ananya Patel', role: 'UX Designer at Razorpay', avatar: 'AP', text: 'I was completely lost about my career after college. DOCERE\'s career mapping literally changed my life. Now I\'m doing exactly what I love and getting paid well for it.', rating: 5 },
 ];
 
 const quizQuestions = [
@@ -117,7 +117,7 @@ export default function HomePage() {
 
                     <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.2 }}
                         className="text-xl text-white/60 max-w-3xl mx-auto mb-10 leading-relaxed">
-                        DUCERE combines AI-driven mental wellness tracking, adaptive study planning, and precision career alignment so students achieve peak performance without burning out.
+                        DOCERE combines AI-driven mental wellness tracking, adaptive study planning, and precision career alignment so students achieve peak performance without burning out.
                     </motion.p>
 
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.3 }}
@@ -207,7 +207,7 @@ export default function HomePage() {
                         <div className="text-center mb-16">
                             <span className="badge badge-purple mb-4">Live Preview</span>
                             <h2 className="section-title mb-4">Your Dashboard at a Glance</h2>
-                            <p className="section-subtitle">See how DUCERE displays your wellness, performance, and skill growth in one place.</p>
+                            <p className="section-subtitle">See how DOCERE displays your wellness, performance, and skill growth in one place.</p>
                         </div>
                     </FadeUp>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -297,7 +297,7 @@ export default function HomePage() {
                         <div className="text-center mb-16">
                             <span className="badge badge-green mb-4">Proven Results</span>
                             <h2 className="section-title mb-4">Real Outcomes. Measurable Impact.</h2>
-                            <p className="section-subtitle">Data from 10,000+ students who completed the DUCERE program.</p>
+                            <p className="section-subtitle">Data from 10,000+ students who completed the DOCERE program.</p>
                         </div>
                     </FadeUp>
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">

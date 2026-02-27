@@ -1,6 +1,6 @@
-# DUCERE — AI-Powered Student Success Platform
+# DOCERE — AI-Powered Student Success Platform
 
-**DUCERE** is a production-ready Next.js 14 application that integrates mental wellness tracking, AI-adaptive study planning, employability skill development, and career niche alignment for students.
+**DOCERE** is a production-ready Next.js 14 application that integrates mental wellness tracking, AI-adaptive study planning, employability skill development, and career niche alignment for students.
 
 ---
 
@@ -14,7 +14,7 @@
 ### 2. Install Dependencies
 
 ```bash
-cd "C:\Users\Aatma\Videos\DUCERE"
+cd "C:\Users\Aatma\Videos\DOCERE"
 npm install
 ```
 
@@ -29,7 +29,7 @@ copy .env.local.example .env.local
 Edit `.env.local`:
 
 ```env
-MONGODB_URI=mongodb://localhost:27017/ducere
+MONGODB_URI=mongodb://localhost:27017/docere
 NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=your-super-secret-key-here-change-this
 ```
@@ -68,7 +68,7 @@ Open [http://localhost:3000](http://localhost:3000) 🎉
 ## 📁 Project Structure
 
 ```
-DUCERE/
+DOCERE/
 ├── app/
 │   ├── (public)            # Home, About, Features, Pricing, Blog, Contact
 │   ├── login/              # Auth pages
@@ -155,8 +155,8 @@ To upgrade to OpenAI/Gemini, add your key to `.env.local` and update `lib/ai.ts`
 ```bash
 git init
 git add .
-git commit -m "Initial commit: DUCERE platform"
-git remote add origin https://github.com/YOUR_USERNAME/DUCERE.git
+git commit -m "Initial commit: DOCERE platform"
+git remote add origin https://github.com/YOUR_USERNAME/DOCERE.git
 git push -u origin main
 ```
 
@@ -166,7 +166,7 @@ git push -u origin main
 2. Import your GitHub repository
 3. Add Environment Variables:
    - `MONGODB_URI` → your MongoDB Atlas connection string
-   - `NEXTAUTH_URL` → `https://your-ducere-domain.vercel.app`
+   - `NEXTAUTH_URL` → `https://your-docere-domain.vercel.app`
    - `NEXTAUTH_SECRET` → your 32-byte hex secret
 4. Click **Deploy** ✅
 
@@ -244,4 +244,4 @@ Pull requests are welcome! Please open an issue first to discuss what you'd like
 
 ## 📄 License
 
-MIT License © 2025 DUCERE
+MIT License © 2025 DOCERE

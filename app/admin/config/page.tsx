@@ -22,7 +22,7 @@ const DEFAULT_CONFIGS: ConfigEntry[] = [
     { key: 'max_students_per_mentor', value: '30', category: 'limits', description: 'Maximum students a mentor can manage', isPublic: false },
     { key: 'ai_plan_intensity_cap', value: '0.7', category: 'ai', description: 'Max intensity multiplier for AI study plans (0–1)', isPublic: false },
     { key: 'free_plan_monthly_plans', value: '1', category: 'limits', description: 'Study plans per month for free users', isPublic: true },
-    { key: 'platform_title', value: 'DUCERE', category: 'branding', description: 'Platform display name shown in UI', isPublic: true },
+    { key: 'platform_title', value: 'DOCERE', category: 'branding', description: 'Platform display name shown in UI', isPublic: true },
     { key: 'enable_blog_comments', value: 'false', category: 'feature', description: 'Allow students to comment on blog posts', isPublic: false },
     { key: 'feedback_analysis_model', value: 'rule-based', category: 'ai', description: 'AI model for feedback analysis: rule-based, openai, gemini', isPublic: false },
 ];
@@ -91,7 +91,7 @@ export default function AdminConfigPage() {
         <div className="space-y-8">
             <div>
                 <h1 className="page-header">Super-Control Panel ⚙️</h1>
-                <p className="text-white/50">Dynamically configure every aspect of the DUCERE platform without writing code.</p>
+                <p className="text-white/50">Dynamically configure every aspect of the DOCERE platform without writing code.</p>
             </div>
 
             {/* Danger Banner */}

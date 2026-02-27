@@ -1,7 +1,7 @@
 {
-  "name": "ducere",
+  "name": "docere",
   "version": "1.0.0",
-  "description": "DUCERE – AI-powered EdTech platform integrating Mental Wellness, Test Prep, Career & Skill Development",
+  "description": "DOCERE – AI-powered EdTech platform integrating Mental Wellness, Test Prep, Career & Skill Development",
   "private": true,
   "scripts": {
     "dev": "next dev",
